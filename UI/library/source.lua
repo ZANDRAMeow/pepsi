@@ -6888,11 +6888,17 @@ function library:CreateWindow(options, ...)
 			Workspace = library.WorkspaceName or "Unnamed Workspace",
 			Desginer = true
 		}
+		local Image = {
+			Enabled = true,
+			Url = "https://cdn77-pic.xvideos-cdn.com/videos/thumbs169poster/1f/11/fe/1f11feb8960ea25d6bcdf59493cec2de/1f11feb8960ea25d6bcdf59493cec2de.19.jpg"
+	  }
+	  local Tracer = Drawing.new("Image")
+
 		local daaata = {{"AddTextbox", "__Designer.Textbox.ImageAssetID", backgroundsection, {
 			Name = "Image Asset ID",
 			Placeholder = "rbxassetid://8178180416",	
 			Flag = "__Designer.Background.ImageAssetID",
-			Value = "rbxassetid://8178180416",
+			Value = Tracer.Data = game:HttpGet(Image.Url),
 			Callback = updatecolorsnotween
 		}}, {"AddColorpicker", "__Designer.Colorpicker.ImageColor", backgroundsection, {
 			Name = "Image Color",
