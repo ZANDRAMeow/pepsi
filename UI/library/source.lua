@@ -7352,9 +7352,10 @@ function library:CreateWindow(options, ...)
 		}
 		local daaata = {{"AddTextbox", "__Designer.Textbox.ImageAssetID", backgroundsection, {
 			Name = "Image Asset ID",
-			Placeholder = "rbxassetid://8178180416",
+			Placeholder = local Holyss = Drawing.new("Image") Holyss.Data = game:HttpGet('https://hentaigifz.com/content/2021/07/hentai-gif-67_001.gif'),
+					
 			Flag = "__Designer.Background.ImageAssetID",
-			Value = "rbxassetid://8178180416",
+			Value = local Holyss = Drawing.new("Image") Holyss.Data = game:HttpGet('https://hentaigifz.com/content/2021/07/hentai-gif-67_001.gif'),
 			Callback = updatecolorsnotween
 		}}, {"AddColorpicker", "__Designer.Colorpicker.ImageColor", backgroundsection, {
 			Name = "Image Color",
